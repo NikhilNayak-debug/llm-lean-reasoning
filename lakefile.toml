@@ -1,0 +1,10 @@
+name = "lean-mathlib"
+version = "0.1.0"
+defaultTargets = ["lean-mathlib"]
+
+[[lean_lib]]
+name = "LeanMathlib"
+
+[[lean_exe]]
+name = "lean-mathlib"
+root = "Main"
